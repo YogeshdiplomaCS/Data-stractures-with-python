@@ -1,0 +1,23 @@
+
+# Web Framework
+Django>=4.2.0
+
+# Database
+psycopg2-binary>=2.9.0 
+
+# REST API
+djangorestframework>=3.14.0
+
+# Authentication
+django-cors-headers>=4.0.0
+
+# Environment Variables
+python-decouple>=3.8
+
+# Testing
+pytest>=7.0.0
+pytest-django>=4.5.0
+
+# Code Quality
+black>=23.0.0
+flake8>=6.0.0
