@@ -1,35 +1,22 @@
+# Web Framework
+Django>=4.2.0
 
-Django==4.2.0
-djangorestframework==3.14.0
+# Database
+psycopg2-binary>=2.9.0  # PostgreSQL ಡ್ರೈವರ್
 
+# REST API
+djangorestframework>=3.14.0
 
-psycopg2-binary==2.9.6
+# Authentication
+django-cors-headers>=4.0.0
 
-python-dotenv==1.0.0
+# Environment Variables
+python-decouple>=3.8
 
+# Testing
+pytest>=7.0.0
+pytest-django>=4.5.0
 
-django-cors-headers==4.0.0
-djangorestframework-simplejwt==5.2.2
-
-
-django-extensions==3.2.3
-
-
-pytest==7.3.1
-pytest-django==4.5.2
-pytest-cov==4.1.0
-
-
-black==23.3.0
-flake8==6.0.0
-isort==5.12.0
-pylint==2.17.4
-
-
-gunicorn==20.1.0
-
-# ಸೌಕರ್ಯಗಳು
-celery==5.2.7
-redis==4.5.5
-requests==2.31.0
-pillow==9.5.0
+# Code Quality
+black>=23.0.0
+flake8>=6.0.0
